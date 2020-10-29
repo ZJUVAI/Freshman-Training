@@ -26,24 +26,6 @@
      - 加入颜色编码（包括A图中，使用时间信息来编码；B图中用班级信息来编码）
   - B视图中，网络中的边的粗细能根据其权重进行变化（权重越高，说明该时间段内这两个人联系越多，不要求使用曲线边，也不要求区分方向）
 
-> 助教会提供一个Demo，在本目录下的`vis`中，你可以进入该目录后，使用`npm i`安装依赖包，然后使用`npm run start`就可以启动该Demo。你将会看到左边有一个投影好的结果，右边则是随便选出来的某一个点所对应的图结构。暂时没有任何交互，代码逻辑也很混乱，仅仅提供给你们一个参考，希望各位可以自己去根据作业指南完成作业。
-
-   > 在这个Demo中，还包含了一份假数据，这份假数据的是json格式的。结构大概如下：
-   >
-   > ```json
-   > [{
-   >     "statistic": {
-   >         degree: count,
-   >     },
-   >     "vector": [x, y],
-   >     "graph": {
-   >         "nodes": [{id}],
-   >         "links": [{source, target, weight}]
-   >     }
-   > }]
-   > ```
-   >
-   > 这是一个数组，数组的每个元素是一帧，一帧对应Demo左面的一个节点。这个节点的x，y坐标由vector给出，这个节点对应的图结构由graph给出。其中graph中的nodes和links最重要，分别表示图的节点，和节点之间的关联（source和target表示边连接的两个节点，weight表示边的权重）。
 
 
 2. 阅读Reducing Snapshots to Points: A Visual Analytics Approach to Dynamic Network Exploration，复现其中关于如何将动态图转化为二维平面坐标的算法（在本目录下有PDF，有相关的中文博客解释这篇论文：[浙江大学可视分析小组博客](https://zjuvag.org/blog/2015/10/29/2015-10-29-Reducing-Snapshots-to-Points-A-Visual-Analytics-Approach-to-Dynamic-Network-Exploration/)）
