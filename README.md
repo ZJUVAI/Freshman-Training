@@ -4,7 +4,7 @@
 
 ## 作业要求
 
-> 各位同学在上课前，可以看一下[作业指南](#作业指南)，做一下准备工作
+> 各位同学在开始前，可以看一下[作业指南](#作业指南)，做一下准备工作
 >
 > 下面的要求都是对于大一本科生的要求，各位同学的要求是，使用任意一种前端框架（react/vue/angular）实现以下功能，并且带有后端（推荐python）的数据接口，如果你想使用react+antd+eslint+prettier...推荐你去clone这个项目（打一波广告：[create-react-antd-vis-app](https://github.com/JackieAnxis/Create-React-Antd-Vis-App)），并在此基础上进行开发
 
